@@ -89,6 +89,6 @@ async def _upgrade(c: UtubeBot, m: Message):
         text=tr.UPGRADE_MSG,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="Subscription Details", url="https://t.me/+97tA4_TrzyowMjk1")]]
+            [[InlineKeyboardButton(text="Subscription Details", url="https://t.me/+kMaM6yA5Cyw3Njg1")]]
      )
 )
