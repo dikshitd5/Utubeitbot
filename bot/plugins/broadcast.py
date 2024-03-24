@@ -23,7 +23,7 @@ logger.setLevel(logging.INFO)
 )
 async def get_stats(c: UtubeBot, m: Message):
     total_users = await db.total_users_count()
-    uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - Config.BOT_UPTIME))    
+    #uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - Config.BOT_UPTIME))    
     start_t = time.time()
     st = await m.reply('**Aᴄᴄᴇꜱꜱɪɴɢ Tʜᴇ Dᴇᴛᴀɪʟꜱ.....**')    
     end_t = time.time()
