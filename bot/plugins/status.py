@@ -45,7 +45,6 @@ async def stats_message_fn(c: UtubeBot, m: Message):
     msg = (
         f"<b>Bot Current Status</b>\n\n"
         f"<b>Restarted on {restart_time}</b>\n"
-        f"<b>Bot Uptime</b>: {hr}:{mi}:{se}\n\n"
         f"<b>Total disk space:</b> {total}\n"
         f"<b>Used :</b> {used}\n"
         f"<b>Free :</b> {free}\n\n"
