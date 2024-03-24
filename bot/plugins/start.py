@@ -23,9 +23,6 @@ async def _start(c: UtubeBot, m: Message):
                   [
                       InlineKeyboardButton("Project Channel!", url="https://t.me/DextiNBots"),
                       InlineKeyboardButton("Support Group", url="https://t.me/TeamDextiN")
-                  ],
-                  [  
-                      InlineKeyboardButton("Upgrade😀", url="https://t.me/+kMaM6yA5Cyw3Njg1")
                   ]]
         ),
     )
