@@ -20,7 +20,7 @@ def map(pos):
         button = [
         [
             InlineKeyboardButton(text = 'Support Chat', url = Config.SUPPORT_CHAT_LINK),
-            InlineKeyboardButton(text = 'Feature Request', url = "https://github.com/oVo-HxBots/Utubeitbot/issues/new")
+            #InlineKeyboardButton(text = 'Feature Request', url = "https://github.com/oVo-HxBots/Utubeitbot/issues/new")
             ],
             [InlineKeyboardButton(text = '<--', callback_data = f"update+{pos-1}")]
           
