@@ -13,6 +13,8 @@ class Config:
 
     API_ID = int(os.environ.get("API_ID"))
 
+    DOWNLOAD_DIRECTORY = "./downloads/"
+
     API_HASH = os.environ.get("API_HASH")
 
     CLIENT_ID = os.environ.get("CLIENT_ID")
