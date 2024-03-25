@@ -26,8 +26,8 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 @Client.on_message(filters.private & filters.incoming & filters.command(['restart']) & filters.user(Config.BOT_OWNER), group=2)
 async def _restart(c: UtubeBot, m: Message):
-  shutil.rmtree(Config.DOWNLOAD_DIRECTORY)
-  LOGGER.info('Deleted Config.DOWNLOAD_DIRECTORY successfully.')
+  #shutil.rmtree(Config.DOWNLOAD_DIRECTORY)
+  #LOGGER.info('Deleted Config.DOWNLOAD_DIRECTORY successfully.')
   await m.reply_text(
       text='**♻️Bot Restarted Successfully !**',
       quote=True
