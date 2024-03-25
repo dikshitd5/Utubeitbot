@@ -61,7 +61,7 @@ class Messages:
         f"**         Date:06-06-2022; Monday\n\n__• Fixed 400 AUTH_BYTES_INVALID: The authorization bytes are invalid.\n• session_name error in deployment.\n• Unknown error about markdown__.**",  
         "**Bot Developed by [@oVo-HxBots](https://github.com/oVo-HxBots)\n Bot Owned by @HxBots**"
     ]
-    UPGRADE_MSG = "**__For Purchase Contact @Kirodewal or Click Below Link---\nhttps://t.me/+97tA4_TrzyowMjk1**"
+    UPGRADE_MSG = "**__For Purchase Contact @DextiN_xD or Click Below Link---\nhttps://t.me/+kMaM6yA5Cyw3Njg1**"
     
     NOT_A_REPLY_MSG = "Please reply to some video file."
 
